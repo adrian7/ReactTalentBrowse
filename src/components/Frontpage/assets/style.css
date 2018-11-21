@@ -1,0 +1,13 @@
+/**
+ * Homepage header styling
+ * @author adrian7
+ * @version 1.0
+ */
+
+header{
+    background: #dedede;
+}
+
+header .disclaimer{
+    font-size: 20px;
+}

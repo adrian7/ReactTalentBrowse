@@ -1,0 +1,30 @@
+/**
+ * Search bar styling
+ * @author adrian7
+ * @version 1.0
+ */
+
+.search-input-container label{
+    display: none;
+}
+
+.search-input-container input{
+    font-size: 150%;
+}
+
+.skill-item{
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 8px;
+    font-size: 18px;
+    background: aquamarine;
+    width: auto;
+    margin-right: 10px;
+}
+
+.skill-btn-del{
+    display: inline-block;
+    margin-left: 8px;
+    cursor: pointer;
+}

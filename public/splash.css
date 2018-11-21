@@ -1,0 +1,57 @@
+/**
+ * Splash screen css
+ * @author adrian7
+ * @version 1.0
+ */
+
+/* Initial state - splash active */
+.splash{
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #dedede;
+    opacity: 1;
+}
+
+.splash img{
+    position: relative;
+    display: block;
+    margin: 5% auto;
+}
+
+/* Next state - app loaded */
+.splash.loaded{
+
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+
+    opacity: 0;
+
+}
+
+/* Next state - app ready */
+.splash.hidden{
+    opacity: 0;
+    display: none;
+}
+
+/* Spinner */
+.spinner {
+    margin: 50px;
+    height: 28px;
+    width: 28px;
+    animation: rotate 0.5s infinite linear;
+    border: 8px solid #cecece;
+    border-right-color: transparent;
+    border-radius: 50%;
+}
+
+@keyframes rotate {
+    0%    { transform: rotate(0deg); }
+    100%  { transform: rotate(360deg); }
+}

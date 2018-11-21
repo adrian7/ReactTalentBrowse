@@ -1,0 +1,13 @@
+/**
+ * Input component styling
+ * @author adrian7
+ * @version 1.0
+ */
+
+input[type="text"],
+input[type="password"]{
+    border-width: 2px;
+    padding: 12px;
+    font-size: 18px;
+    font-style: italic;
+}
